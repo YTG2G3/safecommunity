@@ -4,15 +4,17 @@ import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from "@nextui-org/navb
 import { Button } from "@nextui-org/button";
 import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function LandingNav() {
     let { status } = useSession();
+    let router = useRouter();
 
     return (
         <Navbar>
             <NavbarBrand>
                 <Link href="#a">
-                    <h1>SafeCommunity</h1>
+                    <h1 className="font-medium">SafeCommunity</h1>
                 </Link>
             </NavbarBrand>
 
@@ -39,11 +41,11 @@ export default function LandingNav() {
             <NavbarContent justify="end">
                 <NavbarItem>
                     {status === "authenticated" ? (
-                        <Link href="/login">
+                        <Button variant="solid" onClick={() => router.push("/link")}>
                             Dashboard
-                        </Link>
+                        </Button>
                     ) : (
-                        <Button variant="flat" onClick={() => signIn()}>
+                        <Button variant="ghost" onClick={() => signIn("github", { callbackUrl: "/console" })}>
                             Login
                         </Button>
                     )}

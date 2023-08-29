@@ -1,5 +1,5 @@
-import LandingNav from "@/components/LandingNav";
-import LandingContent from "@/components/LandingContent";
+import LandingNav from "@/app/LandingNav";
+import LandingContent from "@/app/LandingContent";
 
 export default function Landing() {
     return (
