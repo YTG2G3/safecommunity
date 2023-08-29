@@ -10,3 +10,15 @@
 * [Acknowledgement](#acknowledgement)
 
 ## Environment Settings
+```
+GITHUB_ID: Github OAuth ID
+GITHUB_SECRET: Github OAuth Secret
+
+NEXTAUTH_SECRET: NextAuth JWT Secret
+NEXTAUTH_URL: NextAuth Server URL
+
+DATABASE_URL: Prisma Connection String
+```
+
+## Acknowledgement
+* [SUIT Font](https://sunn.us/suit/)
