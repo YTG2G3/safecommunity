@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/AIGGEZ/safecommunity/blob/main/public/logo.png?raw=true" />
+    <a href="https://safecommunity.aiggez.com"><img src="https://github.com/AIGGEZ/safecommunity/blob/main/public/logo.png?raw=true" /></a>
 </p>
 
 # SafeCommunity
