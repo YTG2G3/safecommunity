@@ -6,7 +6,7 @@ export default function LandingContent() {
     return (
         <main>
             <div id="a" style={{ height: `calc(100vh)` }}>
-                <Image fill src="https://littlevisuals.co/images/747.jpg" />
+                <Image fill src="https://littlevisuals.co/images/747.jpg" alt="background" />
 
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                     <p className="text-center text-7xl">SafeCommunity</p>
