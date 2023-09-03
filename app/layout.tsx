@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 import localFont from 'next/font/local';
 
 const suitFont = localFont({
-    src: 'SUIT-Variable.woff2',
+    src: '../public/fonts/SUIT-Variable.woff2',
     display: 'swap',
     variable: '--font-suit'
 });
