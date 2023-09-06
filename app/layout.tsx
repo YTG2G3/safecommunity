@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Providers } from "./providers";
 import localFont from 'next/font/local';
+import '@/lib/polyfill';
 
 const suitFont = localFont({
     src: '../public/fonts/SUIT-Variable.woff2',
